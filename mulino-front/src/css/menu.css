@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.price-tag{
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+    
+}
+.menuitem-price-rectangel{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #84BD98;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.menuitem-name{
+  text-align: center;
+  color: #454242;
+  font-size: 38px;
+  font-family: "Oleo Script Swash Caps";
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 300px;
+}
+
+.menuitem-description{
+  text-align: center;
+  color: #585555;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 278px;
+}
+
+.rate-description{
+  text-align: center;
+  color: #585555;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 379px;
+}
+
+.menuitem-read-more{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6.1px;
+  padding-bottom: 6.1px;
+  background: rgba(132.41, 188.50, 151.92, 0.20);
+  border-radius: 100px;
+  justify-content: "center";
+  align-items: "center";
+  gap: 10px;
+  display: inline-flex;
+}
+
+.menuitem-read-more-button{
+  text-align: center;
+  color: #84BD98;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;  
+  cursor: pointer;
+
+}
+
+
+.menuitem-container{
+  width: 380px;
+  height: 322.66px;
+  padding: 20px;
+  left: 0px;
+  top: 197.34px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: inline-flex;
+}
+
+.menuitem-name-price-container{
+  width: 336px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.menuitem-stars-container{
+  height: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.menuitem-lines-container{
+  width: 40px;
+  height: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.menuitem-lines{
+  width: 18px;
+  height: 16.88px;
+  left: 0px;
+  top: 0.56px;
+  position: absolute;
+  background: #84BD98;
+}
+
+
+.menu-container {
+  background: #f1f1f1;
+  width: 1170px;
+  margin: 0 auto; /* Center the container */
+  margin-top: 300px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: start; /* Distribute items evenly with space between */
+  gap: 30px
+}
+
+.menuitem {
+  width: calc(33.333% - 20px); /* Three items per row with some spacing */
+  /*margin-bottom: 100px; /* Space between rows */
+  height: 520px;
+  position: relative;
+}
+
+.menuitem-img {
+  width: 380px;
+  height: 197px;
+  object-fit: cover;
+}
+
+.menuitem-container {
+  padding: 0px;
+  background: #f1f1f1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+}
+
+.text{
+  text-align: start;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 379px;
+}
+
+input::placeholder {
+  color: #303030;
+}

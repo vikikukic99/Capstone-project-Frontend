@@ -1,0 +1,201 @@
+/* ReserveForm.css */
+.reserve-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+
+  }
+  
+  .reserve-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .reserve-title {
+    font-size: 2.5rem;
+    color: #454242;
+    font-family: Oleo Script Swash Caps;
+    margin-bottom: 0.5rem;
+  }
+  
+  .reserve-underline {
+    width: 150px;
+    height: 2px;
+    background-color: #84bd98;
+    margin: 0 auto;
+  }
+  
+  .reserve-quote {
+    font-size: 1.875rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .reserve-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .reserve-field {
+    display: flex;
+    flex-direction: column;
+    background: #f1f1f1;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .reserve-field input {
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .reserve-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .reserve-half-field {
+    flex: 1;
+    background: #f1f1f1;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    position: relative;
+   
+  }
+
+  
+  .reserve-half-field input {
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: calc(100% - 2rem);
+  }
+  .reserve-half-field select {
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: calc(100% - 2rem);
+  }
+
+  .info-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+  
+  .circles-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 790px;
+    height: 229px;
+    background: #d9d9d9;
+    display: grid;
+    grid-template-columns: 54px 1fr 55px;
+    grid-template-rows: 1fr auto 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .window {
+    background: #454242;
+    color: #84bd98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  
+  .window-1 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
+  
+  .window-2 {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+  }
+  
+  .circles {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 45px;
+    height: 45px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .reserve-button {
+    width: 250px;
+    height: 47px;
+    background: #84bd98;
+    border: none;
+    border-radius: 1000px;
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .text{
+    text-align: start;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;   
+    width: 379px;
+  }
+  
+  input::placeholder {
+    color: #303030;
+  }
+  
+  .circle:hover {
+    background-color: #84bd98;
+  }
+
+  .circle.selected {
+    background-color: #4bc505;
+    border-color: #454242;
+  }
+
+
+  

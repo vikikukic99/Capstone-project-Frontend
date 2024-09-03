@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.background {
+  display: flex;
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Stack items vertically */
+  padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%; /* Set maximum width */
+  max-height: 100%; /* Set maximum height */
+  overflow: auto; /* Enable scrolling when content overflows */
+  background-color: white; 
+} 
+  
+.background-image {
+  height: 100%; 
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../assets/images/firstImage.jpeg);
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.zatamljenje {
+  height: 100%;
+  width:100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: rgba(8.96, 8.74, 8.74, 0.50);
+}
+
+.header-items{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+    
+}
+  
+.price-tag{
+  text-align: center;
+  color: #F1F1F1;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+    
+}
+.menuitem-price-rectangel{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #84BD98;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.menuitem-name{
+  text-align: center;
+  color: #454242;
+  font-size: 38px;
+  font-family: "Oleo Script Swash Caps";
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 300px;
+}
+
+.menuitem-description{
+  text-align: center;
+  color: #585555;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 278px;
+}
+
+.rate-description{
+  text-align: center;
+  color: #585555;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;   
+  width: 379px;
+}
+
+
+.ratings-container{
+  width: 1395px;
+  height: 910px;
+ 
+  background-image: url(../assets/images/kolac.jpeg);
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.rate-person-name{
+  text-align: center;
+  color: black;
+  font-size: 39px;
+  font-family: Oleo Script Swash Caps;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.testimonial-text{
+  width: 224px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #F1F1F1;
+  font-size: 48px;
+  font-family: Oleo Script Swash Caps;
+  font-weight: 400;
+  word-wrap: break-word;
+ 
+}
+
+.rating-text-container{
+  width: 880px;
+  padding-left: 3px;
+  padding-right: 328px;
+  left: 200px;
+  top: 40px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+ 
+}
